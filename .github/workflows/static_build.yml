@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == "BastianSaavedra/reflex_test_proyect"
+    if: github.repository == 'BastianSaavedra/reflex_test_proyect'
     runs-on: ubuntu-latest
 
     permissions:
