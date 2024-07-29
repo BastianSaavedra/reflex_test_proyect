@@ -7,4 +7,4 @@ reflex init
 API_URL=https://reflextestproyect-production.up.railway.app reflex export --frontend-only
 unzip frontend.zip -d public
 rm -f frontend.zip
-deactivate
+rm -rf .venv
