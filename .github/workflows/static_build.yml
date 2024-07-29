@@ -26,6 +26,9 @@ jobs:
         run: |
           chmod +x remote_build.sh
           sh remote_build.sh
+          
+      - name: Deactivate venv
+        run: deactivate
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
